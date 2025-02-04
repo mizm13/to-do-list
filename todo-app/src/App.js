@@ -1,7 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+import TodoList from "./TodoList";
 
 function App() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-200">
+      <TodoList />
+    </div>
+  );
+  /*
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +27,8 @@ function App() {
       </header>
     </div>
   );
+  */
+
 }
 
 export default App;
